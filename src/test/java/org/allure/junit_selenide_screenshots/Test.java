@@ -26,7 +26,6 @@ public class Test {
     static void setupAllureReports() {
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide()
                 .screenshots(true)
-                .savePageSource(false)
         );
     }
 
